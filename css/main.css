@@ -1,0 +1,657 @@
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
+
+@font-face {
+    font-family: 'futuracondensed_medium';
+    src: url('../fonts/futura/futura-condensed-medium-webfont.woff2') format('woff2'),
+    url('../fonts/futura/futura-condensed-medium-webfont.woff') format('woff'),
+    url('../fonts/futura/futura-condensed-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+    font-family: 'futuracondensed_medium', Arial, sans-serif;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.homemadeapple{
+    font-family: "Homemade Apple", cursive;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+
+/********************************
+              MENU
+*********************************/
+.background_header{
+    background-color: #c71f55;
+}
+
+#menu{
+    float: right;
+}
+
+.mobile_shop_user{
+    float: left;
+    display: none;
+}
+
+.mobile_shop_user ul li i{
+    color: #c71f55;
+}
+
+.mobile_shop_user a:hover{
+    border-bottom:none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 20px;
+    color: #ffffff;
+}
+header nav ul li a {
+    padding: 0 !important;
+}
+
+header nav ul li a,
+header nav ul li a:link,
+header nav ul li a:visited,
+header nav ul li a:active
+{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover
+{
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -2px;
+}
+
+
+
+.navbar {
+    background-color: transparent;
+    border-radius: 0;
+    min-height: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+/* Correction border-right */
+
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus{
+    color: #fff;
+    background: transparent;
+}
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus{
+    color: #fff;
+    background: transparent;
+}
+
+
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #c71f55;
+}
+
+
+
+
+
+/********************************
+          BUTTON PINK
+*********************************/
+.button_pink a,
+.button_pink a:link,
+.button_pink a:visited,
+.button_pink a:active
+{
+    display: inline-block;
+    background-color: #c71f55;
+    border-radius: 10px;
+    padding: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button_pink a:hover{
+    text-decoration: none;
+}
+
+.button_pink{
+    margin-bottom: 50px;
+}
+
+
+
+/********************************
+          SECTION SOCIAL
+*********************************/
+.background_section_social{
+    background-color: #c71f55;
+}
+
+#section_social{
+    padding: 2vh 5vw;
+}
+
+#section_social ul li a{
+    font-size:20px;
+    display: inline-block;
+    color: #ffffff;
+}
+
+#section_social ul li{
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+
+
+
+/********************************
+            FOOTER
+*********************************/
+.background_footer{
+    background-color: #535353;
+}
+
+#footer{
+    padding-top:5vh;
+    padding-bottom: 2vh;
+}
+
+#footer h1{
+    color:#fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#footer_contact input{
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+#footer_contact input[placeholder],
+#footer_contact textarea[placeholder]{
+    padding: 5px 10px;
+}
+
+
+
+#footer_contact textarea{
+    resize: none;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border:none;
+    margin-bottom: 10px;
+}
+
+#footer_contact input[type="submit"]{
+    padding: 10px;
+    float: right;
+    width:20%;
+    text-transform: uppercase;
+    display: block;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#footer_other_infos ul li{
+    color: #fff;
+    line-height: 25px;
+}
+
+.mentions_legales{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+/*************************************************************************************************************************************************************************************
+                                                                               HOME PAGE
+**************************************************************************************************************************************************************************************/
+
+/*******************************************************
+           COMMUN SECTIONS FOOD DRINKS DEALS
+********************************************************/
+.h1_food_drinks_deals{
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-shadow: 0 0 17px rgba(0, 0, 0, 0.5)
+}
+
+
+
+
+/********************************
+          SECTION LOGO
+*********************************/
+.background_section_logo{
+    background-color: #ffe5bf;
+}
+
+#section_logo{
+    padding: 5vh 5vw;
+}
+
+#section_logo figure img{
+    display: block;
+    margin: auto;
+    width:100%;
+    max-width: 500px;
+}
+
+
+
+
+/********************************
+          SECTION FOOD
+*********************************/
+.background_section_food{
+    background-image: url("../img/food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#section_food{
+    padding: 10vh 5vw;
+}
+
+
+
+/********************************
+          SECTION DRINKS
+*********************************/
+.background_section_drinks{
+    background-image: url("../img/drinks.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#section_drinks{
+    padding: 10vh 5vw;
+    text-align:right;
+}
+
+
+
+
+/********************************
+          SECTION DEALS
+*********************************/
+.background_section_deals{
+    background-image: url("../img/deals.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#section_deals{
+    padding: 10vh 5vw;
+}
+
+
+
+
+/********************************
+          SECTION STORES
+*********************************/
+.background_section_stores{
+    background-color: #ffe5bf;
+}
+
+#section_stores{
+    padding: 4vh 5vw;
+}
+
+#section_stores h1{
+    color: #c71f55;
+    font-size: 45px;
+    margin-bottom:40px;
+}
+
+#section_stores label{
+    margin-bottom:10px;
+    font-size: 20px;
+}
+
+#section_stores input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+#map iframe{
+    width: 100%;
+    height: 30vh;
+}
+
+
+
+
+
+
+/*************************************************************************************************************************************************************************************
+                                                                               FOOD PAGE
+**************************************************************************************************************************************************************************************/
+/*****************************************************************
+         SECTIONS COOKIES MUFFINS CUPCAKES ICE CREAM
+******************************************************************/
+.h1_sections_cookies_muffins_cupcakes_ice_cream{
+    color: #c71f55;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.p_sections_cookies_muffins_cupcakes_ice_cream{
+    color: #5c1c04;
+    margin-bottom: 15px;
+}
+
+.p_sections_cookies_muffins_cupcakes_ice_cream a,
+.p_sections_cookies_muffins_cupcakes_ice_cream a:hover,
+.p_sections_cookies_muffins_cupcakes_ice_cream a:focus,
+.p_sections_cookies_muffins_cupcakes_ice_cream a:active,
+.p_sections_cookies_muffins_cupcakes_ice_cream a:visited,
+.p_sections_cookies_muffins_cupcakes_ice_cream a:link{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #c71f55;
+}
+
+
+
+
+/********************************
+         SECTION COOKIES
+*********************************/
+.background_section_cookies{
+    background-image: url("../img/background_beige.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#section_cookies{
+    padding: 5vh 0;
+}
+
+.image_cookie figure img{
+    width: 100%;
+}
+
+/********************************
+         SECTION MUFFINS
+*********************************/
+.background_section_muffins{
+    background-image: url("../img/background_rose.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#section_muffins{
+    padding: 5vh 0;
+}
+
+.image_muffin figure img{
+    height: 100%;
+}
+
+
+
+/********************************
+         SECTION CUPCAKES
+*********************************/
+.background_section_cupcakes{
+    background-image: url("../img/background_bleu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#section_cupcakes{
+    padding: 5vh 0;
+}
+
+.image_cupcake figure img{
+    height: 100%;
+}
+
+
+
+/********************************
+        SECTION ICE CREAMS
+*********************************/
+.background_section_ice_creams{
+    background-image: url("../img/background_beige_symetrie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#section_ice_creams{
+    padding: 5vh 0;
+}
+
+.image_ice_creams figure img{
+    height: 100%;
+}
+
+
+
+
+/*======================================
+=             MEDIA QUERY              =
+=     ----  Max Width Method  ----       =
+======================================*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+    .button_pink{
+        text-align: center;
+    }
+
+    /********************************
+                  MENU
+    *********************************/
+
+    header nav ul li:nth-child(n+5):nth-child(-n+8){
+        display: none;
+    }
+
+    .mobile_shop_user{
+        display: block;
+    }
+
+    .background_header{
+        position: relative;
+        width: 100%;
+        background: #ffe5bf;
+    }
+
+    .navbar{
+        margin:0;
+        text-align: center;
+    }
+
+    header nav ul li a, header nav ul li a:link, header nav ul li a:visited, header nav ul li a:active{
+        color: #c71f55;
+    }
+
+    .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus{
+        color: #c71f55;
+    }
+    
+    header nav ul li a:hover{
+        border: none;
+        margin-bottom: 0;
+    }
+    
+    #menu{
+        width: 100%;
+    }
+
+
+    /********************************
+                 SOCIAL
+    *********************************/
+    #section_social{
+        text-align: center;
+    }
+    #section_social ul li:last-child{
+        margin-right: 0;
+    }
+
+    /********************************
+                 FOOTER
+    *********************************/
+    #footer h1{
+        text-align: center;
+    }
+
+    #footer_contact input[type="submit"]{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+
+    #footer_other_infos ul li{
+        text-align: center;
+    }
+
+
+    /*************************************************************************************************************************************************************************************
+                                                                                   HOME PAGE
+    **************************************************************************************************************************************************************************************/
+    /********************************
+             FOOD DRINKS DEALS
+    *********************************/
+        #section_food,
+        #section_drinks,
+        #section_deals{
+            text-align: center;
+        }
+
+    /********************************
+                 STORES
+    *********************************/
+        #section_stores{
+            text-align: center;
+        }
+
+        #section_stores input{
+            margin-left:auto;
+            margin-right: auto;
+        }
+
+        #map iframe{
+            height: 40vh;
+        }
+
+
+
+
+    /*************************************************************************************************************************************************************************************
+                                                                                   FOOD PAGE
+    **************************************************************************************************************************************************************************************/
+    .h1_sections_cookies_muffins_cupcakes_ice_cream,
+    .p_sections_cookies_muffins_cupcakes_ice_cream{
+        text-align: center;
+    }
+
+    .image_muffin img,
+    .image_cupcake img,
+    .image_ice_cream img{
+        width:100%;
+    }
+
+
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/*======================================
+=             MEDIA QUERY              =
+=  -  Only Column detection Method -   =
+======================================*/
+
+/* Medium Devices, Desktops */
+@media (max-width: 1199px) and (min-width: 992px) {
+}
+
+/* Small Devices, Tablets */
+@media (max-width: 991px) and (min-width: 768px){
+}
+
+/* Extra Small Devices, Phones */
+@media (max-width: 767px) and (min-width: 321px) {
+}
+
+/* Custom, iPhone Retina */
+@media (max-width: 320px) {
+}
